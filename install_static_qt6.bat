@@ -13,7 +13,7 @@ where cmake.exe
 where ninja.exe
 
 
-SET SRC_DIR="C:\Users\Mullai.Nathan\AppData\Local\Programs\qt-everywhere-src-6.4.2"
+SET SRC_DIR="C:\<PATH>\qt-everywhere-src-6.4.2"
 SET BUILD_DIR="C:\Qt\qt-everywhere-src-6.4.2-build\"
 SET INSTALL_DIR="C:\Qt\Qt6.4.2-static"
 SET CONFIGURE_OPTIONS= -opensource -platform win32-msvc -opengl desktop -static -static-runtime -nomake examples -nomake tests -openssl -openssl-linked -I C:/OpenSSL/include -L C:/OpenSSL/lib ^
